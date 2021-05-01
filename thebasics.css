@@ -1,0 +1,40 @@
+body {
+    background-color: lightblue;
+}
+
+#maincontainer, #supplemental-info-box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#video-box-content {
+padding:5px 5px 5px 5px;
+border-radius:20px;
+border-color:black;
+width:50em;
+height:30em; }
+
+#buttonlist li { 
+    display: inline;
+}
+
+button {
+    color: white;
+    background-color: darkblue;
+    height: 60px;
+    width : 125px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+
+#descriptive-text {
+    margin-left: 10%;
+    margin-right: 10%;
+}
